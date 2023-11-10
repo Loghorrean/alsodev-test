@@ -1,24 +1,23 @@
-# alsodev-test
+# delivery-food
 
-## Project setup
+## Install required libraries
 ```
-yarn install
+yarn
 ```
 
-### Compiles and hot-reloads for development
+### You can view the application both locally in dev mode...
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+Will run on http://localhost:8080, if the port is available
+
+### ...or check minified production version.
+### (requires local http server, you can use comands below to install and run one)
 ```
 yarn build
+npm install -g serve (if you don't already have one installed)
+serve -s dist
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Will run on http://localhost:3000, if the port is available
