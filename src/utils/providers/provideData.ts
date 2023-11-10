@@ -19,7 +19,7 @@ export const provideData = (): Array<Restaurant> => {
             slug: "pizza-plus",
             time_of_delivery: 50,
             stars: 4.5,
-            price: 900,
+            price: 440,
             kitchen: "Пицца",
             image: pizzaPlusImage,
             products: providePizzaPlus()
@@ -29,7 +29,7 @@ export const provideData = (): Array<Restaurant> => {
             slug: "tanuki",
             time_of_delivery: 60,
             stars: 4.3,
-            price: 1200,
+            price: 455,
             kitchen: "Суши, роллы",
             image: tanukiImage,
             products: provideTanuki()
@@ -39,7 +39,7 @@ export const provideData = (): Array<Restaurant> => {
             slug: "food-band",
             time_of_delivery: 40,
             stars: 4.4,
-            price: 450,
+            price: 595,
             kitchen: "Пицца",
             image: foodBandImage,
             products: provideFoodBand()
@@ -49,7 +49,7 @@ export const provideData = (): Array<Restaurant> => {
             slug: "palki-skalki",
             time_of_delivery: 55,
             stars: 4.1,
-            price: 500,
+            price: 319,
             kitchen: "Пицца",
             image: palkiSkalkiImage,
             products: providePalkiSkalki()
@@ -59,7 +59,7 @@ export const provideData = (): Array<Restaurant> => {
             slug: "gusi-lebedi",
             time_of_delivery: 75,
             stars: 4.7,
-            price: 1000,
+            price: 140,
             kitchen: "Русская кухня",
             image: gusiLebediImage,
             products: provideGusiLebedi()
@@ -69,7 +69,7 @@ export const provideData = (): Array<Restaurant> => {
             slug: "pizza-burger",
             time_of_delivery: 45,
             stars: 4.6,
-            price: 700,
+            price: 638,
             kitchen: "Пицца",
             image: pizzaBurgerImage,
             products: providePizzaBurger()
